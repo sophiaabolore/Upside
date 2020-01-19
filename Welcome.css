@@ -1,0 +1,97 @@
+/* set the background colour and borders of the page*/
+html
+{
+    background-color: white;
+    border-style: solid;
+    border-width: 60px;
+    border-color: #C08FB9;
+
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  border-bottom: 3px solid black;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: black;
+}
+/* Set the information of the first header*/
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+  font-family: 'Bad Script';font-size: 22px;
+  font-size: 50px;
+  text-align: center;
+  color: #000000;
+}
+/* Set the information of the second header */
+h2{
+  position: relative;
+  top: 18px;
+  left: 10px;
+  font-family: 'Bad Script';font-size: 22px;
+  font-size: 30px;
+  text-align: center;
+  color: #000000;
+
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: 150px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*Set the information of the button */
+.button {
+  padding: 30px 45px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background: linear-gradient(to right, #DFAED9,#C08FB9);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+/*Change the background colour of the button when the mouse hovers over it*/
+.button:hover {
+background-color: #3e8e42;
+
+}
+/*When the button is clicked change the background colour and add a shadow */
+.button:active {
+  background-color: #3e8e42;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
